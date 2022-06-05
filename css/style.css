@@ -1,0 +1,188 @@
+/*
+Theme Namw: Gyan
+Author: Gyan
+Version: 1.0.0
+
+
+Table Of Content
+=================
+1.Common Css
+2.Header Section
+3.Nav Section
+
+*/
+/* Common Css Start */
+body{
+    font-family: 'Arimo', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/* //Common Css End */
+
+/* Header Section Css Start*/
+#header{
+    background: #2d3e50;
+    color: #ffff;
+    line-height: 40px;
+    height: 40px;
+}
+#header a{
+       
+    color: #fff;
+}
+#header a:hover{
+   color: orange;
+
+}
+/* //Header Section Css End*/
+/* Nav Section Css Start */
+#main_menu ul li:hover a{
+	color: orange;
+}
+/* //Nav Section Css End */
+/* Banner Section Css Start */
+.slider1 {
+	background: url(../img/banner.png) left top no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+}
+
+.left_arrow {
+	color: #f1f1f1;
+	position: absolute;
+	font-size: 28px;
+	top: 50%;
+	left: 50px;
+	z-index: 99;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+	line-height: 60px;
+	text-align: center;
+	transform: translateY(-50%);
+	-webkit-transition: all linear .5s;
+	-ms-transition: all linear .5s;
+	-mos-transition: all linear .5s;
+	-o-transition: all linear .5s;
+}
+
+.left_arrow:hover {
+	background: #fbaa33;
+	color: white;
+	border-color: #fbaa33;
+}
+
+.right_arrow {
+	color: #f1f1f1;
+	position: absolute;
+	font-size: 28px;
+	top: 50%;
+	right: 50px;
+	z-index: 99;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 1px solid #f1f1f1;
+	cursor: pointer;
+	line-height: 60px;
+	text-align: center;
+	transform: translateY(-50%);
+	-webkit-transition: all linear .5s;
+	-ms-transition: all linear .5s;
+	-mos-transition: all linear .5s;
+	-o-transition: all linear .5s;
+}
+
+.right_arrow:hover {
+	background: #fbaa33;
+	color: white;
+	border-color: #fbaa33;
+}
+
+.bnr_text {
+	padding-top: 138px;
+	padding-bottom: 230px;
+	font-family: 'Arimo';
+	color: #fff;
+}
+
+.bnr_text h1 {
+	font-weight: 700;
+	font-size: 52px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.bnr_text h1 span {
+	font-weight: 400;
+	font-size: 40px;
+	display: block;
+}
+
+.bnr_text p {
+	font-weight: 400;
+	font-size: 14px;
+	padding-bottom: 60px;
+	padding-right: 510px;
+}
+
+
+
+.bnr_text .take_tour {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	display: inline-block;
+	padding: 13px 22px;
+	border-radius: 5px;
+	margin-right: 20px;
+	background: #2d3e50;
+	transition: all linear .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+}
+
+
+.bnr_text .take_tour:hover {
+	background: #fbaa33;
+}
+
+.bnr_text .start_course{
+    text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+	display: inline-block;
+	padding: 13px 22px;
+	border-radius: 5px;
+	margin-right: 20px;
+	transition: all linear .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+    background: #fbaa33;
+}
+.bnr_text .start_course:hover {
+    background: #2d3e50;
+}
+/* //Banner Section Css End */
